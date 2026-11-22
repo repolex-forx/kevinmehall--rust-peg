@@ -1,0 +1,11 @@
+{
+  "org": "kevinmehall",
+  "repo": "rust-peg",
+  "versions": [
+    {
+      "commit": "3453b34e8dcf0482c650f917e60d43ed944a71e2",
+      "tag": "0.8.6",
+      "parsed_at": "2026-11-22T13:04:42.369722+00:00"
+    }
+  ]
+}
