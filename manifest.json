@@ -101,6 +101,99 @@
       ],
       "ast": [
         "aggregate/ast/3453b34e8dcf0482c650f917e60d43ed944a71e2/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3453b34e8dcf0482c650f917e60d43ed944a71e2.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "peg-macros",
+          "ecosystem": "CARGO",
+          "version": "0.8.6",
+          "githubOrg": "kevinmehall",
+          "githubRepo": "rust-peg",
+          "githubCommit": "3453b34e8dcf0482c650f917e60d43ed944a71e2",
+          "githubTag": "0.8.6",
+          "githubUrl": "https://github.com/kevinmehall/rust-peg",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "peg-runtime",
+          "ecosystem": "CARGO",
+          "version": "0.8.6",
+          "githubOrg": "kevinmehall",
+          "githubRepo": "rust-peg",
+          "githubCommit": "3453b34e8dcf0482c650f917e60d43ed944a71e2",
+          "githubTag": "0.8.6",
+          "githubUrl": "https://github.com/kevinmehall/rust-peg",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.80",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "a408546745c2bdc0a1fb6a81a814c3e87c9d5e9d",
+          "githubTag": "1.0.80",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "version_check",
+          "ecosystem": "CARGO",
+          "version": "0.9",
+          "githubOrg": "SergioBenitez",
+          "githubRepo": "version_check",
+          "githubUrl": "https://github.com/SergioBenitez/version_check",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.93",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "83519e88337217c75794935381de61ab02c60a9b",
+          "githubTag": "1.0.93",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.93/src/lib.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.38",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "0245506323a3616daa2ee41c6ad0b871e4d78ae4",
+          "githubTag": "1.0.38",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.38/src/lib.rs"
+        },
+        {
+          "packageName": "prettyplease",
+          "ecosystem": "CARGO",
+          "version": "0.2.37",
+          "githubOrg": "dtolnay",
+          "githubRepo": "prettyplease",
+          "githubCommit": "c971184fa8c5ef5a2828196e35bd99469455b46b",
+          "githubTag": "0.2.37",
+          "githubUrl": "https://github.com/dtolnay/prettyplease",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prettyplease-0.2.37/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.108",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "7a7e331255822d49bea01e29c326ee7a5cd5415c",
+          "githubTag": "2.0.108",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.108/src/lib.rs"
+        }
       ]
     }
   ],
